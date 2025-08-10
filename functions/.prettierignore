@@ -1,5 +1,17 @@
-lib
-node_modules
-generated
-.firebase
+# Ignore build output
+lib/
+dist/
+build/
 
+# Ignore coverage reports
+coverage/
+
+# Ignore node modules
+node_modules/
+
+# Ignore generated files
+generated/
+*.generated.*
+
+# Ignore lock files
+package-lock.json
